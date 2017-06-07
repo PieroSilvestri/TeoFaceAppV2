@@ -2,6 +2,7 @@ package pierosilvestri.it.teofaceappv2;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -72,14 +73,26 @@ public class RegistrationActivity extends AppCompatActivity {
 
     void BtnDone_Clicked(){
         EditText editName = (EditText) findViewById(R.id.editTextName);
-        EditText editsurname = (EditText) findViewById(R.id.editTextSurname);
+        EditText editSurname = (EditText) findViewById(R.id.editTextSurname);
         EditText editEmail = (EditText) findViewById(R.id.editTextEmail);
 
-        if(editName.getText().toString() == "" || editsurname.getText().toString() == "" || editEmail.getText().toString() == ""){
+        if(editName.getText().toString() == "" || editSurname.getText().toString() == "" || editEmail.getText().toString() == ""){
             Toast.makeText(this, "You have to complete all fields.", Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(this, "All done.", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "All done.", Toast.LENGTH_SHORT).show();
         }
+
+        Bitmap img1Value = ((BitmapDrawable)img1.getDrawable()).getBitmap();
+        Bitmap img2Value = ((BitmapDrawable)img2.getDrawable()).getBitmap();
+
+        Person newPerson = new Person(editName.getText().toString(),
+                editSurname.getText().toString(),
+                editEmail.getText().toString(),
+                img1Value,
+                img2Value);
+
+        //img1.setImageBitmap(img1Value);
+        //img2.setImageBitmap(img2Value);
     }
 
     void Img1_Clicked(){
