@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml
@@ -13,8 +13,18 @@ ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/ma
 	android:versionCode
 		INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:4:5-5:35
+	android:required
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:5:9-32
+	android:name
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:4:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:8:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.1.1] /Users/pierosilvestri/.android/build-cache/5e5ff6e5ba8ae02453787268e8dab5fe51d0bfd3/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.1.1] /Users/pierosilvestri/.android/build-cache/239b4f04ec17964aca5d8d2f8bd76b554460a6d8/output/AndroidManifest.xml:25:5-20
@@ -26,35 +36,35 @@ MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pierosil
 MERGED from [com.android.support:support-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/b102da03f3fec1fb10d03df1b291826dc1dda36f/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/pierosilvestri/.android/build-cache/6d545be364250fa2b383157ca4b4b684047875d3/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:14:9-40
 activity#pierosilvestri.it.teofaceappv2.MainActivity
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:19:27-74
 activity#pierosilvestri.it.teofaceappv2.RegistrationActivity
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:19:9-67
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:22:9-67
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:19:19-55
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:22:19-55
 uses-sdk
 INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/AndroidManifest.xml:21:5-23:78
