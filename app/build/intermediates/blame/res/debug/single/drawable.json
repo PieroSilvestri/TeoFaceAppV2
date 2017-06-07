@@ -88,6 +88,10 @@
         "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/drawable/image_picker.jpg",
+        "source": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/res/drawable/image_picker.jpg"
+    },
+    {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/drawable/notification_bg_low.xml"
     },
