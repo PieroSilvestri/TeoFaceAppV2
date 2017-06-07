@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]
