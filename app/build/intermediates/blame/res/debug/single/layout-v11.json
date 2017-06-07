@@ -1,26 +1,26 @@
 [
     {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/layout-v11/notification_media_cancel_action.xml"
+        "source": "/Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/res/layout-v11/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "source": "/Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/layout-v11/notification_template_big_media.xml"
+        "source": "/Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/res/layout-v11/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/layout-v11/notification_media_action.xml"
+        "source": "/Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/res/layout-v11/notification_media_action.xml"
     },
     {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/layout-v11/notification_template_big_media_custom.xml"
+        "source": "/Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/res/layout-v11/notification_template_big_media_narrow.xml"
+        "source": "/Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/res/layout-v11/notification_template_big_media_narrow.xml"
     }
 ]

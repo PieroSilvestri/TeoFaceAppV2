@@ -45,6 +45,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     void InitGui(){
 
+
         btnDone = (Button) findViewById(R.id.btnDone);
         btnDone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,8 +92,9 @@ public class RegistrationActivity extends AppCompatActivity {
                 img1Value,
                 img2Value);
 
-        //img1.setImageBitmap(img1Value);
-        //img2.setImageBitmap(img2Value);
+
+        img1.setImageBitmap(img2Value);
+        img2.setImageBitmap(img1Value);
     }
 
     void Img1_Clicked(){

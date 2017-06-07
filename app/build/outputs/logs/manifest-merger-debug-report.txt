@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml
@@ -23,62 +23,66 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
 		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:8:5-24:19
-MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.1.1] /Users/pierosilvestri/.android/build-cache/5e5ff6e5ba8ae02453787268e8dab5fe51d0bfd3/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] /Users/pierosilvestri/.android/build-cache/239b4f04ec17964aca5d8d2f8bd76b554460a6d8/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/dd9bad68734db956f5f02688780c726dbef7c51d/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] /Users/pierosilvestri/.android/build-cache/24d152d22d1c90301b46c4fced61473375f5bb5a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] /Users/pierosilvestri/.android/build-cache/f4c6c3a00fe280f9403b749cd5fe8f2f886a2ee7/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/4e74d98116b3dc09bf96033879c3d89037b6fbc8/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/5bc1b105e217d005eade90abc053453ee856bc6a/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/b102da03f3fec1fb10d03df1b291826dc1dda36f/output/AndroidManifest.xml:25:5-20
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:9:5-25:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/pierosilvestri/.android/build-cache/96fe9ae12abe246084a8e0c6cbabaeba8004ad38/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/pierosilvestri/.android/build-cache/206874b6c40abeaf9d73503ec2f680ab69272f66/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/b8a76e43b9befc6dca733f22c4fbdfaa999fd95a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/pierosilvestri/.android/build-cache/20765050f90d812b7e15e9a0280df4f68432dff9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/pierosilvestri/.android/build-cache/1eec648165805cd56fb99a0819b69d52c95c45b6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/5422a5d18ff5da98cc59305f9c51f49eb6a7331f/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/592296ebf330c0603681db9eae05420d15d817f1/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/03157d5a5b821bdf27e029a5872e951dd0662b31/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/pierosilvestri/.android/build-cache/6d545be364250fa2b383157ca4b4b684047875d3/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:14:9-35
 	android:roundIcon
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:13:9-54
 	android:allowBackup
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:15:9-40
 activity#pierosilvestri.it.teofaceappv2.MainActivity
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:20:27-74
 activity#pierosilvestri.it.teofaceappv2.RegistrationActivity
-ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:22:9-67
+ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:23:9-67
 	android:name
-		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:22:19-55
+		ADDED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml:23:19-55
 uses-sdk
 INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.1.1] /Users/pierosilvestri/.android/build-cache/5e5ff6e5ba8ae02453787268e8dab5fe51d0bfd3/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] /Users/pierosilvestri/.android/build-cache/239b4f04ec17964aca5d8d2f8bd76b554460a6d8/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/dd9bad68734db956f5f02688780c726dbef7c51d/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.1] /Users/pierosilvestri/.android/build-cache/24d152d22d1c90301b46c4fced61473375f5bb5a/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.1] /Users/pierosilvestri/.android/build-cache/f4c6c3a00fe280f9403b749cd5fe8f2f886a2ee7/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/4e74d98116b3dc09bf96033879c3d89037b6fbc8/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/5bc1b105e217d005eade90abc053453ee856bc6a/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/b102da03f3fec1fb10d03df1b291826dc1dda36f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] /Users/pierosilvestri/.android/build-cache/96fe9ae12abe246084a8e0c6cbabaeba8004ad38/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/pierosilvestri/.android/build-cache/206874b6c40abeaf9d73503ec2f680ab69272f66/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/b8a76e43b9befc6dca733f22c4fbdfaa999fd95a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/pierosilvestri/.android/build-cache/20765050f90d812b7e15e9a0280df4f68432dff9/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/pierosilvestri/.android/build-cache/1eec648165805cd56fb99a0819b69d52c95c45b6/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/5422a5d18ff5da98cc59305f9c51f49eb6a7331f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pierosilvestri/.android/build-cache/592296ebf330c0603681db9eae05420d15d817f1/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] /Users/pierosilvestri/.android/build-cache/03157d5a5b821bdf27e029a5872e951dd0662b31/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/pierosilvestri/.android/build-cache/6d545be364250fa2b383157ca4b4b684047875d3/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/f2db8f0b3c0df9ada495501680b113ca5d239bee/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.1.1] /Users/pierosilvestri/.android/build-cache/11b718c61aa514b84ece0ea9f7c86211e631d1a2/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pierosilvestri/AndroidPersonalProjects/TeoFaceAppV2/app/src/main/AndroidManifest.xml
