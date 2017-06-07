@@ -2342,8 +2342,8 @@ containing a value of this type.
         public static final int icon_group=0x7f0b007f;
         public static final int ifRoom=0x7f0b0027;
         public static final int image=0x7f0b0031;
-        public static final int imageView3=0x7f0b006e;
-        public static final int imageView4=0x7f0b006d;
+        public static final int imgView1=0x7f0b006d;
+        public static final int imgView2=0x7f0b006e;
         public static final int info=0x7f0b007c;
         public static final int line1=0x7f0b0081;
         public static final int line3=0x7f0b0083;

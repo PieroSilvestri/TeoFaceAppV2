@@ -621,8 +621,8 @@ int id icon 0x7f0b0034
 int id icon_group 0x7f0b007f
 int id ifRoom 0x7f0b0027
 int id image 0x7f0b0031
-int id imageView3 0x7f0b006e
-int id imageView4 0x7f0b006d
+int id imgView1 0x7f0b006d
+int id imgView2 0x7f0b006e
 int id info 0x7f0b007c
 int id line1 0x7f0b0081
 int id line3 0x7f0b0083
